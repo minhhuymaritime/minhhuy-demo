@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://minhhuymaritime.com/</loc>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://minhhuymaritime.com/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://minhhuymaritime.com/en/" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://minhhuymaritime.com/zh/" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://minhhuymaritime.com/id/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://minhhuymaritime.com/th/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://minhhuymaritime.com/" />
+    <lastmod>2026-06-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://minhhuymaritime.com/en/</loc>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://minhhuymaritime.com/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://minhhuymaritime.com/en/" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://minhhuymaritime.com/zh/" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://minhhuymaritime.com/id/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://minhhuymaritime.com/th/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://minhhuymaritime.com/" />
+    <lastmod>2026-06-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://minhhuymaritime.com/zh/</loc>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://minhhuymaritime.com/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://minhhuymaritime.com/en/" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://minhhuymaritime.com/zh/" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://minhhuymaritime.com/id/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://minhhuymaritime.com/th/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://minhhuymaritime.com/" />
+    <lastmod>2026-06-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://minhhuymaritime.com/id/</loc>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://minhhuymaritime.com/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://minhhuymaritime.com/en/" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://minhhuymaritime.com/zh/" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://minhhuymaritime.com/id/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://minhhuymaritime.com/th/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://minhhuymaritime.com/" />
+    <lastmod>2026-06-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://minhhuymaritime.com/th/</loc>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://minhhuymaritime.com/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://minhhuymaritime.com/en/" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://minhhuymaritime.com/zh/" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://minhhuymaritime.com/id/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://minhhuymaritime.com/th/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://minhhuymaritime.com/" />
+    <lastmod>2026-06-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+</urlset>

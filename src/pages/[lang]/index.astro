@@ -1,0 +1,16 @@
+---
+import Layout from '../../layouts/Layout.astro'
+import Root from '../../Root.tsx'
+import type { Lang } from '../../i18n/translations'
+
+// Mỗi ngôn ngữ (trừ tiếng Việt ở gốc) là một trang tĩnh riêng: /en/, /zh/, /id/, /th/
+export function getStaticPaths() {
+  return (['en', 'zh', 'id', 'th'] as Lang[]).map((lang) => ({ params: { lang } }))
+}
+
+const { lang } = Astro.params as { lang: Lang }
+---
+
+<Layout lang={lang}>
+  <Root client:load lang={lang} />
+</Layout>

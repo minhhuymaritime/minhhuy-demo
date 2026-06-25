@@ -1,0 +1,36 @@
+# ── Minh Huy Maritime · cấu hình Apache cho Hostinger ──
+
+# Ép chuyển sang HTTPS
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteCond %{HTTPS} off
+  RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+</IfModule>
+
+# Nén nội dung (giảm dung lượng tải)
+<IfModule mod_deflate.c>
+  AddOutputFilterByType DEFLATE text/html text/css text/plain text/xml \
+    application/javascript application/json image/svg+xml
+</IfModule>
+
+# Cache trình duyệt
+<IfModule mod_expires.c>
+  ExpiresActive On
+  # File trong /assets có mã băm (đổi tên khi đổi nội dung) → cache thật lâu
+  ExpiresByType text/css "access plus 1 year"
+  ExpiresByType application/javascript "access plus 1 year"
+  # Ảnh & font: cache vừa phải
+  ExpiresByType image/jpeg "access plus 1 month"
+  ExpiresByType image/png "access plus 1 month"
+  ExpiresByType image/webp "access plus 1 month"
+  ExpiresByType image/svg+xml "access plus 1 month"
+  # HTML luôn lấy mới để cập nhật nội dung ngay
+  ExpiresByType text/html "access plus 0 seconds"
+</IfModule>
+
+# Trang HTML không cache (để cập nhật nội dung hiện ngay)
+<IfModule mod_headers.c>
+  <FilesMatch "\.(html)$">
+    Header set Cache-Control "no-cache, must-revalidate"
+  </FilesMatch>
+</IfModule>

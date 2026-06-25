@@ -1,0 +1,7 @@
+name = "minhhuy-chat"
+main = "src/index.js"
+compatibility_date = "2024-11-01"
+
+# Kết nối Workers AI (model AI miễn phí của Cloudflare) -> dùng qua env.AI
+[ai]
+binding = "AI"
