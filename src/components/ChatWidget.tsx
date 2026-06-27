@@ -262,24 +262,20 @@ export default function ChatWidget() {
         </div>
       )}
 
-      {/* Bong bóng mời chào (teaser) — viền gradient match nút Hỏi AI */}
+      {/* Bong bóng mời chào (teaser) — tối giản, nền kính mờ nhẹ */}
       {!open && teaser && (
-        <div className="relative w-[16.5rem] origin-bottom-right animate-[chat-pop_0.4s_cubic-bezier(0.2,0.8,0.2,1)_both] rounded-2xl p-[1.5px] shadow-[0_12px_30px_-10px_rgba(124,77,255,0.4)]">
-          <span aria-hidden="true" className="mh-ai-border absolute inset-0 rounded-2xl" />
-          <div className="relative flex items-start gap-2.5 rounded-2xl bg-white px-3.5 py-3">
-            <span className="grid h-8 w-8 shrink-0 place-items-center rounded-full bg-navy-50">
-              <Sparkles className="h-[18px] w-[18px]" strokeWidth={2.2} style={{ stroke: 'url(#mh-icon-grad)' }} />
-            </span>
+        <div className="relative w-[15.5rem] origin-bottom-right animate-[chat-pop_0.4s_cubic-bezier(0.2,0.8,0.2,1)_both]">
+          <div className="relative flex items-start gap-2 rounded-2xl border border-white/40 bg-white/55 px-3.5 py-2.5 shadow-[0_6px_20px_-12px_rgba(15,23,42,0.2)] backdrop-blur-md">
             <button
               onClick={toggle}
-              className="flex-1 pt-0.5 text-left text-[13px] font-medium leading-snug text-slate-700 transition-colors hover:text-slate-900"
+              className="flex-1 text-left text-[13px] font-medium leading-snug text-slate-700 transition-colors hover:text-slate-900"
             >
               {c.teaser}
             </button>
             <button
               onClick={dismissTeaser}
               aria-label="Đóng"
-              className="-mr-1 -mt-0.5 grid h-5 w-5 shrink-0 place-items-center rounded-full text-slate-300 transition-colors hover:bg-slate-100 hover:text-slate-600"
+              className="-mr-1 -mt-0.5 grid h-5 w-5 shrink-0 place-items-center rounded-full text-slate-400 transition-colors hover:bg-slate-500/10 hover:text-slate-600"
             >
               <X className="h-3.5 w-3.5" />
             </button>
@@ -291,10 +287,10 @@ export default function ChatWidget() {
       <button
         onClick={toggle}
         aria-label={open ? (lang === 'en' ? 'Close chat' : 'Đóng chat') : t.nav.askAi}
-        className="group relative rounded-full p-[3px] shadow-[0_9px_26px_-8px_rgba(124,77,255,0.4)] transition-transform duration-300 hover:-translate-y-0.5 active:scale-95"
+        className="group relative rounded-full p-[2px] shadow-[0_9px_26px_-8px_rgba(124,77,255,0.4)] transition-transform duration-300 hover:-translate-y-0.5 active:scale-95"
       >
         {/* Ánh sáng toả (halo xoay) — vừa đủ tinh tế */}
-        <span aria-hidden="true" className="mh-ai-border absolute -inset-[3px] rounded-full opacity-40 blur-md" />
+        <span aria-hidden="true" className="mh-ai-border absolute -inset-[2px] rounded-full opacity-40 blur-md" />
         {/* Viền gradient xoay */}
         <span aria-hidden="true" className="mh-ai-border absolute inset-0 rounded-full" />
         {/* Mặt trong */}
